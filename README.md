@@ -1,5 +1,14 @@
 # 42LeakSanitizer
 
+<p align="center">
+  <b> Showcase </b>
+</p>
+
+<p align="center">
+  <img width="80%" src="https://github.com/ioscreams/42LeakSanitizer/blob/main/showcase/showcase.png">
+</p>
+
+
 ## Problem:
 
 The clang/llvm shipped at school doesn't support `leaksanitizer` which is sad, because we all love leak sanitizer.
@@ -8,7 +17,8 @@ The clang/llvm shipped at school doesn't support `leaksanitizer` which is sad, b
 
 ### Manual installation
 
-We can install llvm using brew, note it take a huge place, nearly 1G.
+We can install llvm/clang using brew.
+> /!\ Warning: it take a huge place, nearly 1G.
 
 ```sh
 brew install llvm
@@ -28,11 +38,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ioscreams/42LeakSanitizer/
 ```
 
 > Note that the automated installation would create an alias in your .zshrc or .zshprofile by default.
-
-<p align="center">
-  <b> Showcase </b>
-</p>
-
-<p align="center">
-  <img width="80%" src="https://github.com/ioscreams/42LeakSanitizer/blob/main/showcase/showcase.png">
-</p>
+> 
